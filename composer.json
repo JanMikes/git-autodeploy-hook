@@ -1,0 +1,15 @@
+{
+    "name": "lexinek/git-autodeplloy-hook",
+    "description": "Service that helps you with setting up your git hooks.",
+    "require": {
+        "nette/http": "2.*",
+        "tracy/tracy": "2.*"
+    },
+    "authors": [
+        {
+            "name": "Jan Mikes",
+            "email": "j.mikes@me.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
