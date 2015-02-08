@@ -1,5 +1,5 @@
 {
-	"name": "lexinek/git-autodeplloy-hook",
+	"name": "lexinek/git-autodeploy-hook",
 	"description": "Service that helps you with setting up your git hooks.",
 	"require": {
 		"nette/http": "2.*",
