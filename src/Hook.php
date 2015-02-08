@@ -2,6 +2,9 @@
 
 namespace Lexinek\GitAutodeployHook;
 
+use Tracy\Debugger,
+	Nette\Http;
+
 /**
  *  @author Jan Mikes <j.mikes@me.com>
  *  @copyright Jan Mikes - janmikes.cz
@@ -29,7 +32,7 @@ class Hook
 		array $allowedUserAgents = array(),
 		$logDirectory = NULL
 	) {
-		$httpRequestFactory = new Nette\Http\RequestFactory;
+		$httpRequestFactory = new Http\RequestFactory;
 
 		$this->allowedIpAddresses = $allowedIpAddresses;
 		$this->allowedMethods = $allowedMethods;
